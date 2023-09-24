@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+/** {
+  box-sizing: border-box;
+  outline: 2px solid blue;
+}*/
+
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: white;
+  padding: 0.0125rem 1rem;
+  top: 0px;
+  position: sticky;
+
+  .logo {
+    height: 4rem;
+  }
+
+  & nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+}
+
+.landingpage {
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frontpage {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  bottom: 50px;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+p.frontpage {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2.app {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom: 5px solid #00b172;
+}
+
+h2.titleinfo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em;
+  color: #00b172;
+}
+
+p.textinfo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.infoapp {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.info {
+  text-align: center;
+  padding: 20px;
+}
+
+.imginfo {
+  height: 80px;
+}
+
+.GreenSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00b172;
+  padding: 55px 55px;
+  color: white;
+  position: relative;
+}
+
+.textGreen > h2 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  border-bottom: 5px solid white;
+}
+
+.textGreen > h3 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+.textGreen > p {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: white;
+}
+
+.spotify-logo {
+  position: absolute;
+  height: 100px;
+}
+
+.kanyeimg {
+  height: 450px;
+}
+
+.textGreen {
+  text-align: left;
+}
